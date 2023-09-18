@@ -19,6 +19,15 @@ font-size: 14px;
     min-height: 100%;
     box-shadow: inset 100px 270px 1000px gray , inset -100px -270px 1000px gray ;
     min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.wrapper .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
 }
 .wrapper .logo img{
     max-width: 50%;
